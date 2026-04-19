@@ -7,6 +7,6 @@
 
 import UIKit
 
-class TodoViewController: UIViewController {
+final class TodoViewController: UIViewController {
     
 }

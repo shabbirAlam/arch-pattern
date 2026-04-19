@@ -11,7 +11,7 @@ protocol DetailViewProtocol: AnyObject {
     func showUser(_ user: User)
 }
 
-class DetailViewController: UIViewController, DetailViewProtocol {
+final class DetailViewController: UIViewController, DetailViewProtocol {
     
     var presenter: DetailPresenterProtocol!
 
